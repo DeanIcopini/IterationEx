@@ -1,0 +1,7 @@
+C:\Users\Dean\Code_Vault\C_Sharp\IterationEx\IterationEx\bin\Debug\IterationEx.exe.config
+C:\Users\Dean\Code_Vault\C_Sharp\IterationEx\IterationEx\bin\Debug\IterationEx.exe
+C:\Users\Dean\Code_Vault\C_Sharp\IterationEx\IterationEx\bin\Debug\IterationEx.pdb
+C:\Users\Dean\Code_Vault\C_Sharp\IterationEx\IterationEx\obj\Debug\IterationEx.csprojAssemblyReference.cache
+C:\Users\Dean\Code_Vault\C_Sharp\IterationEx\IterationEx\obj\Debug\IterationEx.csproj.CoreCompileInputs.cache
+C:\Users\Dean\Code_Vault\C_Sharp\IterationEx\IterationEx\obj\Debug\IterationEx.exe
+C:\Users\Dean\Code_Vault\C_Sharp\IterationEx\IterationEx\obj\Debug\IterationEx.pdb
