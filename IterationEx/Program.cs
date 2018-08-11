@@ -11,52 +11,117 @@ namespace IterationEx
         static void Main()
         {
             // Create a one-dimensional Array of strings. Get text input from user. Create a loop that goes through each string in the Array, adding the user's text to the string. Then create a loop that prints off each string in the Array on a separate line.
+            //Console.WriteLine("Please enter a place you would like to go! ");
+            //string[] addLib = { "I ", "want ", "to ", "go ", "to ", "the", "" };
+            //string userInput = Console.ReadLine();
+            //addLib[6] = userInput;
 
-            string[] lettersMissing = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "", "", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", };
-
-            for (int i = 0; i < lettersMissing.Length; i++)
-            {
-                Console.WriteLine(lettersMissing[i]);
-            }
-
-            Console.WriteLine("\nPlease look at the letters on the sceen and enter the missing letters. ");
-            string userInput = Console.ReadLine();
-
-            if (userInput.Equals("JK"))
-            {
-                Console.WriteLine("Those are the missing letters!");
-            }
-
-            //string lettersFilled = lettersMissing[" "] + userInput[];
-            Console.WriteLine(lettersFilled);
+            //for (int i = 0; i < addLib.Length; i++)
+            //{
+            //    Console.WriteLine(addLib[i]);
+            //}
+            //Console.ReadLine();
 
 
-            // Create an infinite loop
 
-            /*
-            string theLoop = "loop";
+            //Console.WriteLine("\n\nHere is the english alphabet, but there are some missing letters. " + "\nA B C D E F G H I  L M N O P Q R S T U V W X Y Z. ");
 
-            do
-            {
-                Console.WriteLine(theLoop);
-            } while (true);
-            */
+            //Console.WriteLine("\nPlease enter the first missing letter that you notice. ");
+            //string userInputFirstLetter = Console.ReadLine(); //element[9]
+
+            //Console.WriteLine("Great! " + "Now enter the second letter you notice that is missing. ");
+            //string userInputSecondLetter = Console.ReadLine(); //element[10]
+
+            //string[] lettersMissing = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "", "", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", };
+
+            //for (int i = 0; i < lettersMissing.Length; i++)
+            //{
+            //    Console.WriteLine(lettersMissing[i]);
+            //}
+
+            //lettersMissing[9] = userInputFirstLetter;
+            //lettersMissing[10] = userInputSecondLetter;
+
+            //for (int i = 0; i < lettersMissing.Length; i++)
+            //{
+            //    Console.WriteLine(lettersMissing[i]);
+            //}
+
+            //if (userInputFirstLetter == "J" || userInputFirstLetter == "j" && userInputSecondLetter == "K" || userInputSecondLetter == "k")
+            //{
+            //    Console.WriteLine("You got it! Those are the two missing letters. ");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("\nThose dont seem to be the right letters. ");
+            //}
+
+            //Console.Read();
 
 
-            // Fix the infinite loop so it will execute.
+            //// Create an infinite loop
 
-            string theLoopFix = "loop";
+            ///*
+            //string theLoop = "loop";
 
-            do
-            {
-                Console.WriteLine(theLoopFix);
-            } while (!true);
+            //do
+            //{
+            //    Console.WriteLine(theLoop);
+            //} while (true);
+            //*/
+
+
+            ////Fix the infinite loop so it will execute.
+
+            //string theLoopFix = "loop";
+
+            //do
+            //{
+            //    Console.WriteLine(theLoopFix);
+            //} while (!true);
 
 
 
             // Create a loop where the comparison used to determine whether to continue iterating the loop is a "<" operator.
 
+            
+            Console.WriteLine("Please enter your age: ");
+            int userInputAge = Convert.ToInt32(Console.ReadLine());
+            int drinkingAge = userInputAge;
+
+            for (int i = 0; i < userInputAge; i++)
+            {
+                if (drinkingAge < 21)
+                {
+                    Console.WriteLine("You are not old enough to have an adult beverage! ");
+                }
+                else
+                {
+                    Console.WriteLine("You are old enough to have an adult beverage! ");
+                }
+            }
+
+            Console.ReadLine();
+
             // Create a loop where the comparison used to determine whether to continue iterating the loop is a "<=" operator.
+
+            int drinkingAge1 = 0;
+
+            for (int i = 0; i < drinkingAge1; i++)
+            {
+                if (drinkingAge1 <= 20)
+                {
+                    Console.WriteLine("You are not old enough to have an adult beverage! ");
+                }
+                else
+                {
+                    Console.WriteLine("You are old enough to have an adult beverage! ");
+                }
+            }
+
+            Console.ReadLine();
+
+
 
             // Create a List of strings where each item in the list is unique. Ask the user to select text to search for in the List. Create a loop that iterates through the loop and then displays the index of the array that contains matching text on the screen.
 
